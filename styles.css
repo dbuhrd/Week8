@@ -1,0 +1,155 @@
+/* 1. Style the website you made last week using CSS. Below are the requirements:
+    a. Use only external CSS file (no internal or inline styling)
+    b. Every element must be styled
+    c. Create style rules using class, id, and element selectors */
+body{
+    margin: 0;
+    font-family: "Source Sans Pro", "Arial", sans-serif;
+    background-color:black;
+}
+p{
+    color:gray;
+}
+#list{
+    color:white;
+    opacity: 0.8;
+}
+
+
+button{
+    margin: 0;
+    border: 0;
+    padding: 5px 12px;
+    background-color: red;
+}
+button:hover{
+    border: 1px solid red;
+    color: red;
+    background-color: black;
+}
+form{
+    margin: 0;
+    border: 0;
+    padding: 5px 12px;
+    background-color: red;
+    display: inline-block;
+}
+form:hover{
+    border: 1px solid red;
+    color: red;
+    background-color: black;
+}
+
+h1.header{
+    color: red;
+    padding: 15px;
+    background-color: black;
+    margin: 0;
+}
+.shadow-text{
+    text-shadow: gray 1px 1px;
+}
+
+/* ....Navbar.... */
+nav.navbar{
+    padding: 15px;
+    background-color: gray;
+    display: flex;
+    justify-content: space-between;
+    color:black
+}
+nav.navbar a{
+    color:black;
+    text-decoration: none;
+}
+.row{
+    max-width: 850px;
+    margin: 0 auto;   /*center block text*/
+    margin-bottom: 20px;
+
+}
+.jumbo-index{
+    height: 500px; 
+    background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.oVZIXbpV2pwKeLXn4ePEDwHaEo%26pid%3DApi&f=1); 
+    background-size: cover;
+    overflow: hidden;
+    /* alt="A picture of a spook, that is a spy."; */
+}
+.jumbo-about{
+    height: 500px;
+    background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fassets.wired.com%2Fphotos%2Fw_1183%2Fwp-content%2Fuploads%2F2016%2F11%2FUSB-129099832-600x338-e1479253253340.jpg&f=1&nofb=1);
+    background-size: cover;
+    overflow: hidden;
+}
+/* i want to make jumbo the class and the images the id like this
+ .jumbo{
+    height: 500px;
+    background-size: cover;
+    overflow: hidden;
+}
+#about-img{
+    background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fassets.wired.com%2Fphotos%2Fw_1183%2Fwp-content%2Fuploads%2F2016%2F11%2FUSB-129099832-600x338-e1479253253340.jpg&f=1&nofb=1);
+
+} */
+
+.jumbo-contact{
+    height: 500px;
+    background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi0.wp.com%2Fbrushbeater.org%2Fwp-content%2Fuploads%2F2020%2F11%2Fta_312.jpg%3Ffit%3D1280%252C640%26ssl%3D1&f=1&nofb=1);
+    background-size: cover;
+    overflow: hidden;
+}
+/* Same here make new class and mae h2 id */
+.jumbo-index h2 {
+    color: black;
+    opacity: 0.5;
+    font-size: 4rem;
+    padding: 10px;
+    border-radius:10px;
+}
+.jumbo-about h2 {
+    color: black;
+    opacity: 0.5;
+    font-size: 4rem;
+    margin:20px;
+    padding: 10px;
+    border-radius:10px;
+}
+.make-red{
+    color: red;
+    text-shadow: red 1px 1px;
+}
+
+/****** Table*****/
+.wrapper {
+    width: 835px; /* GIVE THE WRAPPING ELEMENT A WIDTH */
+    margin-top: 0;
+    margin-right: auto;
+    margin-bottom: 0;
+    margin-left: auto; /* USE MARGIN (0 AUTO) TO CENTER THE WRAPPER ON THE SCREEN */
+  } 
+table{
+     width: 100%; 
+    margin: 0;
+    padding: 15px;
+    padding-left: 180px;
+    background-color: gray;
+     /* display: flex; */
+    justify-content: space-between;
+    color:black;
+    position: absolute;
+    left: 0px;
+   
+
+}
+.a{
+    color:black;
+    text-decoration: none;
+
+}
+td, th{
+    text-align: left;
+}
+
+#photo-text{
+    font-size: 75%;
+}
